@@ -588,7 +588,7 @@ body {
 		margin-left: -40px;
 		margin-right: -40px;
 	}
-	.content-area {
+	.content-area.-sideDisplay {
 		border-right: solid 1px #ddd;
 		float: left;
 		padding-right: 5.36%;
