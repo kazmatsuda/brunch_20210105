@@ -1,5 +1,5 @@
 /*
-Theme Name: Graphy Kyogaku.ver
+Theme Name: Graphy
 Theme URI: http://themegraphy.com/wordpress-themes/graphy/
 Author: Themegraphy
 Author URI: http://themegraphy.com/
@@ -588,7 +588,7 @@ body {
 		margin-left: -40px;
 		margin-right: -40px;
 	}
-	.content-area.-sideDisplay {
+	.content-area {
 		border-right: solid 1px #ddd;
 		float: left;
 		padding-right: 5.36%;
