@@ -2131,7 +2131,7 @@ ul.grofile-urls {
 		display: none !important;
 	}
 	.site-content {
-		max-width: 240px;
+		max-width: none;
 	}
 	.site-bottom,
 	.site-bottom a {
