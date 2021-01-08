@@ -1060,7 +1060,7 @@ a.category:hover {
 	overflow: hidden;
 }
 .post-thumbnail img {
-	width: 50%;
+	width: 100%;
 	transition: 0.3s ease-in-out;
 }
 .post-thumbnail a:hover img {
@@ -2139,8 +2139,6 @@ ul.grofile-urls {
 	}
 }
 
-/* Search
------------------------------------------------------------- */
-.search{
-	
+.woocommerce-Price-amount:nth-of-type(2){
+display:none !important;
 }
