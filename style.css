@@ -2139,8 +2139,38 @@ ul.grofile-urls {
 	}
 }
 
-/* Search
+/* search_list
 ------------------------------------------------------------ */
-.search{
-	
+.search_list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.search_text{
+	margin-top: 1rem;
+}
+.search_anc{
+	display: block;
+}
+.search_anc:hover	{
+	opacity: .7;
+}
+@media screen and (min-width: 783px) {
+	.search_item{
+		width: calc((100% - 6rem) /3);
+	}
+	.search_item:not(:nth-of-type(3n)){
+		margin-right: 2rem;
+	}
+	.search_item:nth-of-type(n+4){
+		margin-top: 2rem;
+	}
+}
+
+@media screen and (max-width: 783px) {
+	.search_item{
+		width: 100%;
+	}
+	.search_item:nth-of-type(n+2){
+		margin-top: 2rem;
+	}
 }

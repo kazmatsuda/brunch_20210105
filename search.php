@@ -15,11 +15,11 @@ get_header(); ?>
 			<header class="page-header">
 				<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'graphy' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
-
+			<div class="search_list">
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'list' ); ?>
+				<?php get_template_part( 'content', 'search' ); ?>
 
 			<?php endwhile; ?>
 
@@ -31,7 +31,7 @@ get_header(); ?>
 			?>
 
 		<?php else : ?>
-
+			</div>
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
