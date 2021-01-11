@@ -2139,6 +2139,7 @@ ul.grofile-urls {
 	}
 }
 
+
 /* search_list
 ------------------------------------------------------------ */
 .search_list{
@@ -2173,4 +2174,9 @@ ul.grofile-urls {
 	.search_item:nth-of-type(n+2){
 		margin-top: 2rem;
 	}
+
+	/* Fix
+------------------------------------------------------------ */
+.woocommerce-Price-amount:nth-of-type(2){
+display:none !important;
 }
