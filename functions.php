@@ -422,7 +422,7 @@ apply_filters( 'override_load_textdomain', true, 'graphy', get_template_director
 
 //━━━━━━━━━━━━━━━━━━━━━
 // WooCommerce対応テーマ
- add_action( 'after_setup_theme', 'woocommerce_support' );
- function woocommerce_support() {
-     add_theme_support( 'woocommerce' );
-}
+//  add_action( 'after_setup_theme', 'woocommerce_support' );
+//  function woocommerce_support() {
+//      add_theme_support( 'woocommerce' );
+// }
