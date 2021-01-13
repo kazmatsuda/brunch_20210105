@@ -19,7 +19,7 @@
 			<div class="site-info">
 				<div class="site-copyright">
 					&copy; <?php echo date( '2017' ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-				</div>.site-copyright
+				<!-- </div>.site-copyright -->
 				<!-- <div class="site-credit"> -->
 					<!-- <?php printf( wp_kses( __( 'Powered by <a href="%1$s">%2$s</a>', 'graphy' ), array( 'a' => array( 'href' => array() ) ) ), esc_url( __( 'https://wordpress.org/', 'graphy' ) ), 'WordPress' ); ?> -->
 				<!-- <span class="site-credit-sep"> | </span> -->
