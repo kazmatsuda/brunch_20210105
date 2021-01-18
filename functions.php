@@ -419,3 +419,10 @@ require get_template_directory() . '/inc/jetpack.php';
 
 
 apply_filters( 'override_load_textdomain', true, 'graphy', get_template_directory() . '/languages/de_DE.mo' );
+
+//━━━━━━━━━━━━━━━━━━━━━
+// WooCommerce対応テーマ
+//  add_action( 'after_setup_theme', 'woocommerce_support' );
+//  function woocommerce_support() {
+//      add_theme_support( 'woocommerce' );
+// }

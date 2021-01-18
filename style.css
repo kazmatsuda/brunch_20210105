@@ -222,9 +222,9 @@ address {
 	margin: 0 0 1.6em;
 }
 pre {
-	background-color: #eee;
-	color: #555;
-	font-family: Consolas, 'Courier New', monospace;
+	background-color: #fff;
+	color: #333333;
+	font-family: Consolas, Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
 	font-size: 87.5%;
 	line-height: 1.4;
 	margin: 0 0 1.7em;
@@ -675,7 +675,7 @@ body {
 	opacity: 0.8;
 }
 .site-description {
-	color: #777;
+	color: #000000;
 	font-style: italic;
 	line-height: 1.4;
 }
